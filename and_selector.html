@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* and selector (chained),here we specified 2 classes ,if a tag has both the class Fruit and apple then the background-color is applied to that tag.if single class Fruit is present for a tag then background-color not apply to that tag */
+        .Fruit.apple{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="a">Fruits </h1>
+        <p class="a">Fruits are healthy </p>
+        <div>
+            <ul>
+            <!-- In below li 2 classes are defined by separating with space ie. Fruit and apple -->
+            <li class="Fruit apple">apple</li>
+            <li class="Fruit">mango</li>
+            <li class="Fruit">orange</li>
+            <li class="Fruit">graphes</li>
+            <li>banana</li>
+            </ul>
+        </div>
+        <span class="Fruit">pine apple</span>
+</body>
+</html>
