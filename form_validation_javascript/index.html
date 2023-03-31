@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <section class="form-sec">
+    <h1>Form Validation</h1>
+    <form onsubmit="return validateForm()">
+      <div>
+        <label>Name:</label>
+        <input type="text" name="" id="name" placeholder="" required>
+        <span class="name"></span>
+      </div>
+
+      <div>
+        <label >Email:</label>
+      <input type="email" id="email" required>
+      <span class="email"></span>
+      </div>
+      
+      <div>
+        <label for="">password:</label>
+        <input type="password" name="" id="pass" required>
+        <span class="pass"></span>
+      </div>
+
+      <div>
+        <label for="">confirm password:</label>
+      <input type="password" name="" id="cpass" required>
+      <span class="cpass"></span>
+      </div>
+
+        <div class="button">
+          <button>submit</button>
+
+        </div>
+    </form>
+    <script src="./script.js"></script>
+  </section>
+  
+</body>
+</html>
