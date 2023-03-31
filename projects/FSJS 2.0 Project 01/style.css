@@ -1,0 +1,23 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+body{
+    margin: 50px 70px;
+}
+.navbar-container{
+    display: flex;
+    justify-content:space-between;
+    border:2px solid red;
+    height: ;
+    
+}
+.list{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+    list-style-type: none;
+    
+}
+.banner-container{
+    display: flex;
+    
+}
