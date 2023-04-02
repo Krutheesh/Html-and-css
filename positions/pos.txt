@@ -1,0 +1,47 @@
+# Positions
+
+## Positions
+
+Position property can help us to manupulate the location of an element 
+
+Position Property have different values based on that values we can manupulate the location of an element
+
+Let us discuss the values of the Position property
+
+- static
+- relative
+- absolute
+- fixed
+- sticky
+- inherit
+
+### static
+
+ every element by default have the value static , so the element will stick to the normal page flow .
+ The properties like top, bottom, left and right
+ not effects the element.
+
+### relative
+
+An element' orginal position remains in the flow of the document, it is like static vlaue but the difference here is the properties like top,bottom,left and right effects the position of the element from its original position.
+
+
+### absolute
+
+The element is removed from the normal flow of the document.
+In this the position of the parent matters a lot, if we don't specify postion for the parent element then the child element behaves with respective to the document, means that properties like top,bottom,left and right apply with respective to the document, if we specify parent element position to relative then this behaves according to the parent .
+
+
+### fixed
+
+The element is removed from the normal flow of document, here the element always behaves with respective to document, it is quite similar to absolute the difference is absolute behaves based on the parent position property value but in fixed it behaves with respective to document
+
+
+### sticky
+
+The element is treated like relative until the scroll location of viewport  reaches a specified threshold, then position becomes fixed where it is told to stick.
+
+###  inherit
+
+simply it is nothing but inheriting the position of parent element to the child element.z
+
