@@ -1,0 +1,22 @@
+.flex{
+  display: flex;
+  list-style-type: none;
+  
+  align-items: center;
+  
+  flex-basis: auto;
+}
+.first,.last{
+  flex-grow: 1;
+  text-align: center;
+  flex-shrink: 1;
+  flex-basis: 20em;
+}
+.ul{
+  justify-content: space-evenly;
+  flex-grow: 2;
+  flex-shrink: 2;
+  flex-basis: 20em;
+  
+}
+
